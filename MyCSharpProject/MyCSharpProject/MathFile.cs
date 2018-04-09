@@ -17,7 +17,7 @@ namespace MyCSharpProject
                 gcd = numbers[1];
             }
 
-            if(numbers.Length > 1)
+            else if(numbers.Length > 1)
             {
                 gcd = GCDofTwoNumbers(numbers[1], numbers[2]);
             }

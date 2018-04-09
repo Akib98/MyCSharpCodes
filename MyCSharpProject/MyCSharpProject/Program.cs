@@ -10,6 +10,16 @@ namespace MyCSharpProject
     {
         static void Main()
         {
+            #region Reverse String
+            //String testString = Console.ReadLine();
+            //string result = "";
+            //for(int i = testString.Length -1; i >= 0; i--)
+            //{
+            //    result += testString[i];
+            //}
+            //Console.WriteLine(result);
+            #endregion
+
             #region Clearing Duplicate character
             //String testString = Console.ReadLine();
             //Console.WriteLine(StringFile.RemoveDuplicateCharacter(testString));  
