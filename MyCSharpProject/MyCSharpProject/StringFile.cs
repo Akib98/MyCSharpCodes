@@ -27,5 +27,20 @@ namespace MyCSharpProject
             }
             return isAnagram;
         }
+
+        public static string RemoveDuplicateCharacter(string key)
+        {
+            string result = "";
+            string table = "";
+            foreach(char value in key)
+            {
+                if(table.IndexOf(value) == -1)
+                {
+                    table += value;
+                    result += value;
+                }
+            }
+            return result;
+        }
     }
 }

@@ -10,6 +10,11 @@ namespace MyCSharpProject
     {
         static void Main()
         {
+            #region Clearing Duplicate character
+            //String testString = Console.ReadLine();
+            //Console.WriteLine(StringFile.RemoveDuplicateCharacter(testString));  
+            #endregion
+
             #region LCM of five numbers
             //Console.WriteLine("Input five numbers and get the GCD: ");
             //int[] newArray = new int[5];
