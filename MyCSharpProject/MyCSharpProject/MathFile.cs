@@ -38,6 +38,41 @@ namespace MyCSharpProject
             else
                 return number1;
         }
+
+        public static int GetLCMofNumbers(int[] numbers)
+        {
+            int lcm = 1;
+            for (int i = 0; i < numbers.Length; i++)
+            {
+                lcm = lcm * numbers[i] / GCDofTwoNumbers(lcm, numbers[i]);
+            }
+            return lcm;
+        }
+
+        public static int GetSecondHighestOfAnArray(int[] numbers)
+        {
+            int highest = numbers[0];
+            int secondHighest = numbers[0];
+            int num;
+            for (int i =0; i < numbers.Length ; i++)
+            {
+                num = numbers[i];
+                if(num > highest)
+                {
+                    secondHighest = highest;
+                    highest = num;
+                }
+                else if (highest == secondHighest)
+                {
+                    secondHighest = num;
+                }
+                else if (num > secondHighest && num != highest)
+                {
+                    secondHighest = num;
+                }
+            }
+            return secondHighest;
+        }
     }
     
 }

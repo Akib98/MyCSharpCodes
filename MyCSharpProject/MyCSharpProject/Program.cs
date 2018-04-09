@@ -10,17 +10,30 @@ namespace MyCSharpProject
     {
         static void Main()
         {
-            #region GCD of five numbers
-            Console.WriteLine("Input five numbers and get the GCD: ");
-            int[] newArray = new int[5];
-            for (int i = 0; i < newArray.Length; i++)
-            {
-                newArray[i] = Convert.ToInt32(Console.ReadLine());
-            }
-            int result = MathFile.GetGCDofNumbers(newArray);
+            #region LCM of five numbers
+            //Console.WriteLine("Input five numbers and get the GCD: ");
+            //int[] newArray = new int[5];
+            //for (int i = 0; i < newArray.Length; i++)
+            //{
+            //    newArray[i] = Convert.ToInt32(Console.ReadLine());
+            //}
+            //int result = MathFile.GetLCMofNumbers(newArray);
 
-            Console.Write("The GCD of these numbers is: ");
-            Console.WriteLine(result);
+            //Console.Write("The LCM of these numbers is: ");
+            //Console.WriteLine(result);
+            #endregion
+
+            #region GCD of five numbers
+            //Console.WriteLine("Input five numbers and get the GCD: ");
+            //int[] newArray = new int[5];
+            //for (int i = 0; i < newArray.Length; i++)
+            //{
+            //    newArray[i] = Convert.ToInt32(Console.ReadLine());
+            //}
+            //int result = MathFile.GetGCDofNumbers(newArray);
+
+            //Console.Write("The GCD of these numbers is: ");
+            //Console.WriteLine(result);
             #endregion
 
             #region Anagram Check
