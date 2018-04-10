@@ -10,7 +10,19 @@ namespace MyCSharpProject
     {
         static void Main()
         {
-            #region Reverse String
+            #region Checking whether a string is palindrome or not
+            //String input = Console.ReadLine();
+            //bool isPalindrome = StringFile.IsPalindrome(input);
+            //Console.WriteLine(isPalindrome ? "It is a palindrome" : "It is not a palindrome");
+            #endregion
+
+            #region Counting words in a line
+            //String testString = Console.ReadLine();
+            //Console.WriteLine(testString);
+            //Console.WriteLine(StringFile.CountingWords(testString));
+            #endregion
+
+            #region Reverse a string
             //String testString = Console.ReadLine();
             //string result = "";
             //for(int i = testString.Length -1; i >= 0; i--)
@@ -20,7 +32,7 @@ namespace MyCSharpProject
             //Console.WriteLine(result);
             #endregion
 
-            #region Clearing Duplicate character
+            #region Clearing duplicate characters from a string
             //String testString = Console.ReadLine();
             //Console.WriteLine(StringFile.RemoveDuplicateCharacter(testString));  
             #endregion
@@ -51,7 +63,7 @@ namespace MyCSharpProject
             //Console.WriteLine(result);
             #endregion
 
-            #region Anagram Check
+            #region Checking whether a string is anagram or not
 
             //Console.WriteLine("Check two Strings are anagram or not!!");
             //Console.WriteLine("Enter first String: ");
